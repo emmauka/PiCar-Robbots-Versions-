@@ -1,0 +1,4 @@
+RPi.GPIO
+picar_4wd
+Flask
+smbus2

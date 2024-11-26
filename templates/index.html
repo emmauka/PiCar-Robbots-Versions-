@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remote Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a; /* Dark black background */
+            color: #ffffff; /* White text */
+        }
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 14px;
+            padding: 24px 28px;
+            font-size: 24px;
+            font-weight: bold; /* Bold text */
+            line-height: 1.5;
+            cursor: pointer;
+            border: 2px solid #ffd700; /* Golden border color */
+            background-color: #000000; /* Black background */
+            color: #ffffff; /* White text */
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ffd700; /* Golden background on hover */
+            color: #000000; /* Black text on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Remote Control</h1>
+    <a class="button" href="/forward">Forward</a>
+    <a class="button" href="/backward">Backward</a>
+    <a class="button" href="/left">Left</a>
+    <a class="button" href="/right">Right</a>
+    <a class="button" href="/stop">Stop</a>
+</body>
+</html>

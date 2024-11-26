@@ -1,2 +1,18 @@
+# Ignore Python virtual environments
+venv/
+myenv/
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore SunFounder files
+SunFounder_PiCar/
+SunFounder_PiCar-V/
+
+# Ignore other unwanted files
+dist/
+build/
+*.log
 .vscode/*
 *.DS_Store
